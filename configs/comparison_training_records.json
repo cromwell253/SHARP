@@ -1,0 +1,3698 @@
+[
+  {
+    "seed": 2026,
+    "best_epoch": 67,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 72,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 48,
+    "epochs_completed": 68,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 72,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 35,
+    "epochs_completed": 55,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 65,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 5,
+    "epochs_completed": 25,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 2,
+    "epochs_completed": 22,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 5,
+    "epochs_completed": 25,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 74,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 77,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 77,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 70,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 77,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 45,
+    "epochs_completed": 65,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 64,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 76,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 72,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 27,
+    "epochs_completed": 47,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 33,
+    "epochs_completed": 53,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 71,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 40,
+    "epochs_completed": 60,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 65,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 66,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 34,
+    "epochs_completed": 54,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 79,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 62,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 61,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 77,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 63,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 74,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 78,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 47,
+    "epochs_completed": 67,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 26,
+    "epochs_completed": 46,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 53,
+    "epochs_completed": 73,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 5,
+    "epochs_completed": 25,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 62,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 32,
+    "epochs_completed": 52,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 65,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "STEP"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 11,
+    "epochs_completed": 31,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "STEP"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 32,
+    "epochs_completed": 52,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "STEP"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 30,
+    "epochs_completed": 50,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 18,
+    "epochs_completed": 38,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 7,
+    "epochs_completed": 27,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 5,
+    "epochs_completed": 25,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 6,
+    "epochs_completed": 26,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 12,
+    "epochs_completed": 32,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 8,
+    "epochs_completed": 28,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 66,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 40,
+    "epochs_completed": 60,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 55,
+    "epochs_completed": 75,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 79,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 17,
+    "epochs_completed": 37,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 76,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 57,
+    "epochs_completed": 77,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 68,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 77,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 64,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 1,
+    "epochs_completed": 21,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 1,
+    "epochs_completed": 21,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 1,
+    "epochs_completed": 21,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 6,
+    "epochs_completed": 26,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 8,
+    "epochs_completed": 28,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 7,
+    "epochs_completed": 27,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 76,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 20,
+    "epochs_completed": 40,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 50,
+    "epochs_completed": 70,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 77,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 78,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 79,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 19,
+    "epochs_completed": 39,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 12,
+    "epochs_completed": 32,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 58,
+    "epochs_completed": 78,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 38,
+    "epochs_completed": 58,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 31,
+    "epochs_completed": 51,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 46,
+    "epochs_completed": 66,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 12,
+    "epochs_completed": 32,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 8,
+    "epochs_completed": 28,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 43,
+    "epochs_completed": 63,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 77,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 76,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 70,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 21,
+    "epochs_completed": 41,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 64,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 69,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 22,
+    "epochs_completed": 42,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 33,
+    "epochs_completed": 53,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 43,
+    "epochs_completed": 63,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 64,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 79,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 32,
+    "epochs_completed": 52,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "STEP"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 46,
+    "epochs_completed": 66,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "STEP"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 36,
+    "epochs_completed": 56,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "STEP"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 77,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 46,
+    "epochs_completed": 66,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 9,
+    "epochs_completed": 29,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 45,
+    "epochs_completed": 65,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 51,
+    "epochs_completed": 71,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 13,
+    "epochs_completed": 33,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 61,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 43,
+    "epochs_completed": 63,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 31,
+    "epochs_completed": 51,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 79,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 76,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 74,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 65,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 9,
+    "epochs_completed": 29,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 1,
+    "epochs_completed": 21,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 4,
+    "epochs_completed": 24,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 1,
+    "epochs_completed": 21,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 9,
+    "epochs_completed": 29,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 8,
+    "epochs_completed": 28,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 43,
+    "epochs_completed": 63,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 78,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 68,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 51,
+    "epochs_completed": 71,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 74,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 73,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 19,
+    "epochs_completed": 39,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 11,
+    "epochs_completed": 31,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 6,
+    "epochs_completed": 26,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 74,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 70,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 67,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 41,
+    "epochs_completed": 61,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 79,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 74,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 66,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 79,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 78,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 51,
+    "epochs_completed": 71,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 40,
+    "epochs_completed": 60,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 41,
+    "epochs_completed": 61,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 79,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 68,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 58,
+    "epochs_completed": 78,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "STEP"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 59,
+    "epochs_completed": 79,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "STEP"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 52,
+    "epochs_completed": 72,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "STEP"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 79,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 70,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 56,
+    "epochs_completed": 76,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 6,
+    "epochs_completed": 26,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 11,
+    "epochs_completed": 31,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 3,
+    "epochs_completed": 23,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 52,
+    "epochs_completed": 72,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 9,
+    "epochs_completed": 29,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 18,
+    "epochs_completed": 38,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 72,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 26,
+    "epochs_completed": 46,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 69,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 59,
+    "epochs_completed": 79,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 38,
+    "epochs_completed": 58,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 41,
+    "epochs_completed": 61,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 1,
+    "epochs_completed": 21,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 8,
+    "epochs_completed": 28,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 1,
+    "epochs_completed": 21,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 6,
+    "epochs_completed": 26,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 4,
+    "epochs_completed": 24,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 5,
+    "epochs_completed": 25,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 71,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 76,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 70,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 56,
+    "epochs_completed": 76,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 78,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 40,
+    "epochs_completed": 60,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 41,
+    "epochs_completed": 61,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 31,
+    "epochs_completed": 51,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 7,
+    "epochs_completed": 27,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 70,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 70,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 69,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 72,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 41,
+    "epochs_completed": 61,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 65,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 28,
+    "epochs_completed": 48,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 36,
+    "epochs_completed": 56,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 60,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 79,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 44,
+    "epochs_completed": 64,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 37,
+    "epochs_completed": 57,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 71,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 31,
+    "epochs_completed": 51,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 65,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 72,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "STEP"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 40,
+    "epochs_completed": 60,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "STEP"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 54,
+    "epochs_completed": 74,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "STEP"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 22,
+    "epochs_completed": 42,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 50,
+    "epochs_completed": 70,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 45,
+    "epochs_completed": 65,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 15,
+    "epochs_completed": 35,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 10,
+    "epochs_completed": 30,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 69,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 38,
+    "epochs_completed": 58,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 42,
+    "epochs_completed": 62,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 33,
+    "epochs_completed": 53,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 70,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 74,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 69,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 48,
+    "epochs_completed": 68,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 76,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 71,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 77,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 5,
+    "epochs_completed": 25,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 25,
+    "epochs_completed": 45,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 13,
+    "epochs_completed": 33,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 42,
+    "epochs_completed": 62,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 31,
+    "epochs_completed": 51,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 52,
+    "epochs_completed": 72,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 74,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 77,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 77,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 49,
+    "epochs_completed": 69,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 76,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 20,
+    "epochs_completed": 40,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 29,
+    "epochs_completed": 49,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 36,
+    "epochs_completed": 56,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 74,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 79,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 44,
+    "epochs_completed": 64,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 77,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 46,
+    "epochs_completed": 66,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 51,
+    "epochs_completed": 71,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 54,
+    "epochs_completed": 74,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 69,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 77,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 78,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 37,
+    "epochs_completed": 57,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 34,
+    "epochs_completed": 54,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 49,
+    "epochs_completed": 69,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 72,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 73,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 76,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "STEP"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 71,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "STEP"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 67,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "STEP"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 58,
+    "epochs_completed": 78,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 78,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 70,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 68,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 73,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 61,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 61,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 61,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 76,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 77,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 77,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 68,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 74,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 79,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 74,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 74,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 1,
+    "epochs_completed": 21,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 2,
+    "epochs_completed": 22,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 1,
+    "epochs_completed": 21,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 37,
+    "epochs_completed": 57,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 11,
+    "epochs_completed": 31,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 9,
+    "epochs_completed": 29,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 18,
+    "epochs_completed": 38,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 49,
+    "epochs_completed": 69,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 34,
+    "epochs_completed": 54,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 76,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 65,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 79,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 63,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 19,
+    "epochs_completed": 39,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 34,
+    "epochs_completed": 54,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 40,
+    "epochs_completed": 60,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 48,
+    "epochs_completed": 68,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 11,
+    "epochs_completed": 31,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 42,
+    "epochs_completed": 62,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 39,
+    "epochs_completed": 59,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 25,
+    "epochs_completed": 45,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 77,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 76,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 78,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 71,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 66,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 47,
+    "epochs_completed": 67,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 33,
+    "epochs_completed": 53,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 69,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 44,
+    "epochs_completed": 64,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 54,
+    "epochs_completed": 74,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 35,
+    "epochs_completed": 55,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "STEP"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 61,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "STEP"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 37,
+    "epochs_completed": 57,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "STEP"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 76,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 64,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 40,
+    "epochs_completed": 60,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 13,
+    "epochs_completed": 33,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 74,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 62,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 30,
+    "epochs_completed": 50,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 78,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 78,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 76,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 8,
+    "epochs_completed": 28,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 73,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "AGCRN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 78,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 32,
+    "epochs_completed": 52,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "ASTGCN-2019-pytorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 1,
+    "epochs_completed": 21,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 1,
+    "epochs_completed": 21,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 1,
+    "epochs_completed": 21,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "ASTGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 18,
+    "epochs_completed": 38,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 8,
+    "epochs_completed": 28,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 7,
+    "epochs_completed": 27,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "D2STGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 34,
+    "epochs_completed": 54,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 66,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 35,
+    "epochs_completed": 55,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "DCRNN_PyTorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 64,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 52,
+    "epochs_completed": 72,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 75,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "DSTAGNN-main"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 42,
+    "epochs_completed": 62,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 68,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 29,
+    "epochs_completed": 49,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "GMAN-PyTorch"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 71,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 73,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 69,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "HimNet"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 78,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 69,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 9,
+    "epochs_completed": 29,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "MTGNN"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 70,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 74,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "PatchSTG"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 69,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "PDFormer"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 34,
+    "epochs_completed": 54,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 66,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 27,
+    "epochs_completed": 47,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "ST-Norm"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 61,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 38,
+    "epochs_completed": 58,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "STAEformer-main"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 73,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "STEP"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 80,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "STEP"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 40,
+    "epochs_completed": 60,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "STEP"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 68,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 76,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 76,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "STG-Mamba"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 72,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 4,
+    "epochs_completed": 24,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 9,
+    "epochs_completed": 29,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "stgcn"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 37,
+    "epochs_completed": 57,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 27,
+    "epochs_completed": 47,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 56,
+    "epochs_completed": 76,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "STGODE"
+  },
+  {
+    "seed": 2026,
+    "best_epoch": 66,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2027,
+    "best_epoch": 41,
+    "epochs_completed": 61,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2028,
+    "best_epoch": 79,
+    "epochs_completed": 80,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "STSGCN_Pytorch"
+  },
+  {
+    "seed": 2026,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2027,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2028,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2026,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2027,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2028,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "JAPD",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2026,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2027,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2028,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2026,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2027,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2028,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF13112",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2026,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2027,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2028,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2026,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2027,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2028,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF15212",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2026,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2027,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2028,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2026,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2027,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2028,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1905",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2026,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2027,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2028,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2026,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2027,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2028,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF1",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2026,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2027,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2028,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2026,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2027,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2028,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2301",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2026,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2027,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2028,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "SHARP"
+  },
+  {
+    "seed": 2026,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2027,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "TFT (tft-torch)"
+  },
+  {
+    "seed": 2028,
+    "input_steps": 12,
+    "output_steps": 48,
+    "dataset": "WF2903",
+    "model": "TFT (tft-torch)"
+  }
+]

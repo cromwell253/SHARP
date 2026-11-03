@@ -1,0 +1,83 @@
+{
+  "input_steps": 12,
+  "output_steps": 48,
+  "training_window_stride": 5,
+  "event_replay_stride": 1,
+  "train_fraction": 0.6,
+  "validation_end_fraction": 0.8,
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "reported_leads": [
+    12,
+    24,
+    48
+  ],
+  "normalization": "one global training-period mean and standard deviation per dataset",
+  "main_metric_arithmetic": "inverse transform normalized predictions and targets in float32, then MAE and RMSE",
+  "time_features": "relative history positions 0..11; weekday index 0",
+  "baseline_training": {
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "epoch_cap": 80,
+    "patience": 20,
+    "batch_size": 32,
+    "max_training_batches_per_epoch": 500,
+    "scheduler_step": 30,
+    "scheduler_gamma": 0.5
+  },
+  "history_attention_training": {
+    "epochs": 60,
+    "minimum_epochs": 20,
+    "patience": 12,
+    "batch": 4096,
+    "output_scale": 1.0,
+    "train_window_cap": null
+  },
+  "spatial_correction_training": {
+    "epochs": 40,
+    "minimum_epochs": 1,
+    "patience": 8,
+    "batch": 1024,
+    "output_scale": 0.01,
+    "train_window_cap": 8192
+  },
+  "increment_optimizer": {
+    "name": "Adam",
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "gradient_clip": 5.0,
+    "selection": "minimum overall validation MAE, epoch0 included"
+  },
+  "graph_response_scale": 0.25,
+  "spatial_correction_scale": 0.01,
+  "staged_training": true,
+  "joint_end_to_end_training": false,
+  "thresholds": {
+    "type": "per-node training-only upper quantiles",
+    "quantiles": [
+      0.9,
+      0.95,
+      0.99
+    ],
+    "forecast_minutes": 5
+  },
+  "robustness": {
+    "missing_fraction": 0.1,
+    "missing_replacement": "previous available value",
+    "first_history_position_kept": true,
+    "stale_minutes": 2
+  },
+  "latency": {
+    "batch_size": 1,
+    "warmup": 50,
+    "timed_windows": 200,
+    "cpu_threads": 2,
+    "precision": "float32",
+    "tf32_matmul": false,
+    "tf32_cudnn": true
+  }
+}

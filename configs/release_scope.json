@@ -1,0 +1,25 @@
+{
+  "datasets": [
+    "JAPD",
+    "WF1",
+    "WF13112",
+    "WF15212",
+    "WF1905",
+    "WF2301",
+    "WF2903"
+  ],
+  "trained_model_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "main_comparison_models": 20,
+  "data_transformations": [
+    "calendar timestamps removed; 1-minute sampling retained",
+    "original point labels replaced by zero-based order",
+    "coordinates translated to first-node origin; pairwise distances retained",
+    "experimental float32 stress readings retained without perturbation"
+  ],
+  "comparison_results": "archived baseline summaries plus independently scored SHARP/TFT outputs; historical baselines were not retrained during packaging",
+  "reproduction_scope": "released SHARP and matched PatchSTG/ablation checkpoints; evaluation and event replay; third-party baseline source repositories are not vendored"
+}

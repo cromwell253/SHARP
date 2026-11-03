@@ -1,0 +1,20 @@
+{
+  "python": "3.10.14 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:44:50) [MSC v.1916 64 bit (AMD64)]",
+  "torch": "2.3.0+cu118",
+  "cuda_runtime": "11.8",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "platform": "Windows-10-10.0.26100-SP0",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "threads": 2,
+  "tf32_matmul": false,
+  "tf32_cudnn": true,
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "scope": "Frozen offline laboratory validation. No expert review, field software/network timing or mine-approved risk thresholds.",
+  "protocol": "training-only per-node 0.90/0.95/0.99 upper quantiles, full 48-step inference, first5 scoring, seed2026 replay; no threshold tuning on tests",
+  "cpu_name": "Intel(R) Core(TM) i7-14650HX",
+  "timing_resource_policy": "non-exclusive desktop; no core pinning; two PyTorch CPU threads; no removal of slow samples"
+}
