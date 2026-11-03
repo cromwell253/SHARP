@@ -1,0 +1,35 @@
+[
+  {
+    "dataset": "WF1",
+    "seed": 2026,
+    "quantile": 0.1,
+    "window_index": 469,
+    "node": 28,
+    "target_start": 26537,
+    "SHARP_MAE": 0.01178857684135437,
+    "PatchSTG_MAE": 0.01802532933652401,
+    "Persistence_MAE": 0.010463397018611431
+  },
+  {
+    "dataset": "WF1",
+    "seed": 2026,
+    "quantile": 0.5,
+    "window_index": 606,
+    "node": 32,
+    "target_start": 27222,
+    "SHARP_MAE": 0.03230871632695198,
+    "PatchSTG_MAE": 0.03422071412205696,
+    "Persistence_MAE": 0.04127103090286255
+  },
+  {
+    "dataset": "WF1",
+    "seed": 2026,
+    "quantile": 0.9,
+    "window_index": 39,
+    "node": 26,
+    "target_start": 24387,
+    "SHARP_MAE": 0.10499618202447891,
+    "PatchSTG_MAE": 0.1124022975564003,
+    "Persistence_MAE": 0.13055111467838287
+  }
+]

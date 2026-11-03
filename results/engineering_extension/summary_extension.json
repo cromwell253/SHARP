@@ -1,0 +1,45 @@
+{
+  "event_macro_q95": {
+    "SHARP": {
+      "event_precision": 0.5755079623462116,
+      "event_recall": 0.18173651876997637,
+      "event_f1": 0.2644485246844603,
+      "false_alarms_per_sensor_hour": 0.013114292551903408,
+      "original_event_recall": 0.22191899997743914
+    },
+    "PatchSTG": {
+      "event_precision": 0.5733691830491587,
+      "event_recall": 0.2644671693733855,
+      "event_f1": 0.35239057588686623,
+      "false_alarms_per_sensor_hour": 0.009797711192863837,
+      "original_event_recall": 0.3100998731636029
+    }
+  },
+  "pipeline": {
+    "SHARP": {
+      "p50": 5.95815,
+      "p95": 10.879124999999998,
+      "p99": 11.694809,
+      "timeouts": 0
+    },
+    "PatchSTG": {
+      "p50": 1.66615,
+      "p95": 3.0304550000000003,
+      "p99": 3.5884899999999997,
+      "timeouts": 0
+    }
+  },
+  "robustness": {
+    "SHARP": {
+      "missing": 2.304377831945795,
+      "stale": 38.424433498404724
+    },
+    "PatchSTG": {
+      "missing": 1.820049349636226,
+      "stale": 25.481721211890285
+    }
+  },
+  "events_rows": 126,
+  "robustness_rows": 210,
+  "case_candidates": 1301
+}

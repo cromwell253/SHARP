@@ -1,0 +1,25 @@
+{
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "quantiles": [
+    0.9,
+    0.95,
+    0.99
+  ],
+  "frozen_models": true,
+  "episode_matching": "Merge consecutive pre-onset alarm windows per node; use the first issue of each predicted alarm segment; greedily match at most one observed onset in the next five minutes; actual onsets require five complete prediction opportunities. No test-threshold adjustment.",
+  "false_alarm_exposure": "all evaluated sensor-minutes / 60",
+  "case_rule": "seed2026 q95; discordant event detections; lower median SHARP five-minute MAE within each success/failure pool; fixed dataset/onset/node tie break",
+  "pipeline": "WF1 seed2026, first1000 consecutive test updates, accelerated RAM JSON input replay; no network or physical sensor transmission; measured elapsed times, virtual one-minute data indices; deadline60s",
+  "missing_masks": [
+    20261101,
+    20261102,
+    20261103
+  ],
+  "status": "COMPLETE",
+  "event_inference_batch": 32,
+  "robustness_inference_batch": 128
+}

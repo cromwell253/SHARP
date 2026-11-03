@@ -34,7 +34,7 @@ def main():
     root=Path(__file__).resolve().parent;torch.set_num_threads(2)
     torch.backends.cuda.matmul.allow_tf32=False;torch.backends.cudnn.allow_tf32=True
     predictor=load_model(root,a.dataset,a.seed,a.variant,a.device);raw=read_series(root,a.dataset)
-    ids=starts(len(raw),'test',1);ids=ids[:a.limit] if a.limit else ids
+    bounds=starts(len(raw),'test',5);ids=np.arange(bounds[0],bounds[-1]+1);ids=ids[:a.limit] if a.limit else ids
     pred=[]
     for _,x,_ in batches(raw,ids):pred.append(predictor.predict(x)[:,:5])
     prediction=np.concatenate(pred);training=raw[:int(len(raw)*.6)]

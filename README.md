@@ -118,3 +118,24 @@ The results are offline laboratory measurements, not evidence of field deploymen
 The PatchSTG-derived backbone retains its MIT notice in
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Licensing for the project additions
 and monitoring data has not yet been separately specified.
+
+## Extended engineering evaluation
+
+`results/engineering_extension/` adds three model seeds, three thresholds,
+three independent missing masks, 1,000-update accelerated software replay, and
+transparent alert cases. Run `python experiments/engineering_extension.py` to
+recompute using released checkpoints (CUDA required). Plotting requires matplotlib.
+The updated replay entry point preserves the original first/last stride-five
+test-window bounds when constructing one-minute updates.
+
+The new episode protocol merges consecutive pre-onset alarms and matches only
+the first issue of an alarm episode to at most one onset within five minutes.
+Its event precision/recall/F1 are distinct from the retained any-window event
+recall. Across seven datasets and three seeds at q95, the new SHARP event F1 is
+about 0.264, compared with 0.352 for matched PatchSTG. This is a negative outcome,
+despite lower continuous errors. No threshold was adjusted on the test period.
+
+The displayed alert-hit case is not a successful full-curve fit. The plotted
+SHARP output exactly matches the original model; both selected examples fail
+to follow parts of the subsequent 48-minute trajectory. The diagnostic audits
+and fixed-error-quantile WF1 examples are released alongside the curves.

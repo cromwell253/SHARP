@@ -1,0 +1,20 @@
+[
+  {
+    "group": "SHARP_success",
+    "dataset": "WF1905",
+    "node": 8,
+    "onset": 134669,
+    "target_start": 134669,
+    "threshold": 9.461674737930297,
+    "sharp_mae_first5": 0.017246628180146217
+  },
+  {
+    "group": "SHARP_failure",
+    "dataset": "WF1905",
+    "node": 0,
+    "onset": 138671,
+    "target_start": 138670,
+    "threshold": 9.854583215713498,
+    "sharp_mae_first5": 0.016849135980010033
+  }
+]
