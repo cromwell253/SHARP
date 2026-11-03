@@ -1,120 +1,116 @@
 # SHARP
 
-History-selective attention and prediction-guided spatial incremental correction
-for multi-node, multi-step mining-induced stress forecasting.
+**History-Selective Attention and Prediction-Guided Spatial Incremental Correction for Multi-Node, Multi-Step Mining-Induced Stress Forecasting**
 
-## Contents
+SHARP is a spatiotemporal forecasting model for mining-induced stress prediction. It integrates history-selective attention and prediction-guided spatial incremental correction to capture temporal dependencies and spatial interactions among multiple monitoring points, enabling multi-node, multi-step stress forecasting.
 
-- `data/`: seven experimental inputs, with stress readings and local coordinates.
-- `sharp/models/`: the deployed architecture and its components.
-- `checkpoints/`: all seven datasets, seeds 2026/2027/2028, and five ablation configurations.
-- `evaluate.py`: frozen-checkpoint evaluation on chronological splits.
-- `replay.py`: one-minute historical replay under training-only quantile thresholds.
-- `sharp/training.py`: reusable training kernels for the two correction stages.
-- `configs/`: splits, normalization, geometry partitions, graph inputs, stage settings and recorded epochs.
-- `results/comparison.xlsx`, `results/ablation.xlsx`: seven-dataset result tables.
-- `results/comparison/`: per-seed, per-dataset and across-dataset comparison results.
-- `results/engineering/`: five-minute accuracy, threshold replay, input perturbations and latency measurements.
+## 1. Datasets
 
-## Install and evaluate
+The project includes seven real-world mining-induced stress datasets:
 
-Python 3.10 was used. Install a PyTorch build appropriate for your device; the
-recorded evaluation environment used PyTorch 2.3.0 with CUDA 11.8.
+- JAPD
+- WF1
+- WF13112
+- WF15212
+- WF1905
+- WF2301
+- WF2903
 
-```bash
-pip install -r requirements.txt
-python evaluate.py --dataset JAPD --seed 2026 --variant SHARP --device cpu
-python evaluate.py --dataset WF1 --seed 2026 --variant PatchSTG --device cuda
-python replay.py --dataset JAPD --seed 2026 --variant SHARP --device cuda
+The datasets are stored in the `data/` directory. Each dataset contains the following files:
+
+- `series.npz`: Stress measurements stored as a numerical array with shape `[time, nodes]`, using `float32` precision and MPa as the measurement unit.
+- `coordinates.csv`: Local spatial coordinates of the monitoring points.
+
+All datasets have a sampling interval of one minute. Spatial coordinates are defined relative to the first monitoring point, preserving pairwise distances between monitoring locations.
+
+Calendar dates and original sensor identifiers are omitted, while the original temporal and spatial ordering is preserved.
+
+## 2. Experimental Configuration
+
+### 2.1 Data Splitting and Preprocessing
+
+All datasets are chronologically divided into three subsets:
+
+| Dataset Split | Ratio |
+|---|---:|
+| Training | 60% |
+| Validation | 20% |
+| Testing | 20% |
+
+The model takes the most recent 12 minutes of stress measurements as input and predicts stress variations at all monitoring points over the subsequent 48 minutes.
+
+Training and evaluation windows are generated with a five-minute stride, while event replay uses a one-minute stride.
+
+Data normalization is performed using the mean and standard deviation calculated from the training set. Validation and test inputs may include preceding historical observations, while all prediction targets remain within their respective data splits.
+
+### 2.2 Model Comparison
+
+- **Input length:** 12 minutes
+- **Forecast horizon:** 48 minutes
+- **Sampling interval:** 1 minute
+- **Random seeds:** 2026, 2027, 2028
+- **Evaluation metrics:** MAE and RMSE
+- **Forecasting leads:** 12, 24, and 48 minutes
+
+The main comparison evaluates SHARP against 19 independent baseline models across all seven datasets. Results are averaged over three random seeds for each dataset.
+
+### 2.3 Ablation and Engineering Evaluations
+
+Five model configurations are included in the ablation study to investigate the contributions of individual model components.
+
+Engineering evaluations cover the following aspects:
+
+1. **Stress Threshold Event Replay:** Evaluates stress threshold crossing detection and warning lead times using thresholds derived from the 90th, 95th, and 99th percentiles of the training data.
+2. **Missing Data Robustness:** Evaluates forecasting performance under randomly masked historical observations.
+3. **Input Staleness:** Examines model performance when the latest two minutes of monitoring data are delayed.
+4. **Inference Latency:** Measures model execution efficiency on CPU and GPU, including preprocessing, inference, and result serialization.
+
+## 3. Experimental Results
+
+Experimental results are organized as follows:
+
+| File or Directory | Description |
+|---|---|
+| `results/comparison.xlsx` | Summary of model comparison results across seven datasets |
+| `results/ablation.xlsx` | Summary of ablation study results |
+| `results/comparison/` | Per-dataset, per-seed, and aggregated comparison results |
+| `results/engineering/` | Engineering evaluation results, including five-minute forecasting accuracy, threshold event replay, input perturbation tests, and inference latency |
+
+The experimental results cover:
+
+- Multi-step stress forecasting performance across seven datasets.
+- Ablation analysis of individual SHARP components.
+- Forecasting errors at different prediction horizons.
+- Stress threshold event detection under different threshold settings.
+- Forecasting performance under missing and delayed input data.
+- CPU and GPU inference efficiency.
+
+## 4. Model Implementation
+
+The project is organized as follows:
+
+```text
+SHARP/
+├── data/                       # Seven mining-induced stress datasets
+├── sharp/
+│   ├── models/                 # SHARP architecture and model components
+│   ├── training.py              # Training implementations for the correction stages
+│   └── inference.py             # Model loading and inference interface
+├── checkpoints/                # Model checkpoints
+├── configs/                     # Data splits and experimental configurations
+├── results/
+│   ├── comparison/              # Model comparison results
+│   ├── engineering/              # Engineering evaluation results
+│   ├── comparison.xlsx          # Comparison summary
+│   └── ablation.xlsx             # Ablation summary
+├── evaluate.py                  # Forecasting performance evaluation
+└── replay.py                    # Stress threshold event replay
 ```
 
-`--limit 32` provides a short execution check. Full evaluation omits that option.
-Generated output goes to ignored `runs/` files and does not replace paper results.
+The checkpoints cover all seven datasets, three random seeds, and five ablation configurations.
 
-```python
-import numpy as np
-from sharp.inference import load_model
+`evaluate.py` loads the specified dataset, model variant, and checkpoint to perform forecasting evaluation.
 
-model = load_model('.', dataset='WF1', seed=2026, device='cpu')
-data = np.load('data/WF1/series.npz', allow_pickle=False)['data']
-forecast = model.predict(data[:12][None])  # [1,48,36], MPa
-```
+`replay.py` performs minute-by-minute historical stress event replay using predefined thresholds.
 
-## Data
-
-The released arrays are the inputs recorded in the final comparison manifest:
-JAPD, WF1, WF13112, WF15212, WF1905, WF2301 and WF2903. Each directory contains
-only `series.npz` and `coordinates.csv`. The NPZ contains a single numeric `data`
-array shaped `[time,nodes]`, in experimental float32 precision and MPa units.
-The sampling interval is one minute. Calendar dates and original sensor labels
-are removed; row and column order are retained. Coordinates use the first sensor
-as the local origin, preserving pairwise distances. Experimental graph inputs
-and partitions are in `configs/`, because they are needed for reconstruction.
-
-Stress readings were checked for equality before and after export. This release
-does not add measurement noise or rescale stress values. Array-content hashes,
-split boundaries and window counts are in `configs/datasets.json`.
-
-## Experiment protocol
-
-Inputs comprise 12 minutes; each call outputs 48 minutes for every node. Raw
-periods are split chronologically 60/20/20. Every target lies within its split;
-validation/test input may use preceding observations. Training/evaluation window
-starts are spaced by five minutes; event replay uses one-minute starts.
-Normalization uses one mean and standard deviation from the training period.
-Time covariates are relative history positions 0..11 and weekday index zero.
-
-MAE and RMSE are in physical stress units; lower is better. Leads 12,24,48 mean
-the exact forecast positions. Overall metrics include all 48 positions. Main
-tables average three seeds within each dataset. Across-dataset SD describes
-variation across seven dataset means, not variation across seeds.
-
-See [EXPERIMENTS.md](docs/EXPERIMENTS.md) for stage training, ablations, engineering
-metrics and reproduction scope. All reported configurations are retained,
-including cases where adding a component increases error.
-
-## Results and reproduction scope
-
-The main comparison contains SHARP and 19 independent baselines. Duplicate or
-retired entries are excluded and all rankings are recomputed. The matched
-PatchSTG checkpoint used by ablation/engineering tests has its own documented
-configuration; it is not a guarantee that every historical PatchSTG run has
-identical weights or architecture settings.
-
-This package supports inference and evaluation of the released SHARP, matched
-PatchSTG and ablation checkpoints without the original research workspace.
-`results/checkpoint_reload_checks.json` records export/reload prediction checks
-for 105 cases. Historical third-party baseline metrics are provided as archived
-results; those models were not retrained or independently revalidated during
-packaging, and their complete source projects are not vendored here.
-
-The correction-stage training kernels and settings are provided with the frozen
-base weights. They are not a turnkey reconstruction of every upstream backbone
-training run or the original model development/search process. Stage logs and
-checkpoint evaluation should be used to distinguish these reproduction scopes.
-
-Floating-point reduction order, device and library versions can cause small
-evaluation differences. Archived paper values remain available for comparison.
-
-## Engineering evaluation
-
-Five-minute accuracy uses all three seeds. The archived minute-wise threshold
-replay and input perturbations use seed 2026. Replay covers upper quantiles
-0.90/0.95/0.99 estimated only from training data. These are experimental scenarios,
-not mine-approved alarm settings or accident labels. Event recall counts distinct
-observed threshold-entry episodes; window precision is a separate measure.
-
-Missing-input and two-minute-stale-input evaluations already cover all seven
-datasets for SHARP and matched PatchSTG, with the same perturbations per pair.
-Only two example datasets were shown in the manuscript robustness table.
-The archived random-missing test uses one mask seed, not repeated independent masks.
-
-Latency includes local preprocessing, inference and result serialization. It
-does not include mine sensor/network transmission or a control-room display.
-The results are offline laboratory measurements, not evidence of field deployment.
-
-## Attribution
-
-The PatchSTG-derived backbone retains its MIT notice in
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Licensing for the project additions
-and monitoring data has not yet been separately specified.
+The inference interface accepts historical stress measurements with shape `[batch, 12, nodes]` and produces forecasts with shape `[batch, 48, nodes]`, where stress values are expressed in MPa.
