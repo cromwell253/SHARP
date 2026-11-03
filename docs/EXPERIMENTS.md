@@ -34,7 +34,7 @@ selection uses float64 error arithmetic; the main result tables use the recorded
 float32 inverse-transform arithmetic. These two metric conventions are separate.
 
 `configs/staged_training_records.json` contains actual completed/selected epochs,
-validation curves and stage seconds. Shared baseline settings and recorded
+and stage seconds. Shared baseline settings and recorded
 epochs are in `configs/protocol.json` and `configs/comparison_training_records.json`.
 These configurations specify a common-budget adapted comparison, not a rerun of
 every baseline author's original paper configuration. Total upstream training
@@ -87,8 +87,8 @@ synchronization. Local processing includes normalization, device transfer,
 48-step inference, inverse transformation and five-step result serialization.
 CPU uses two PyTorch threads. Slow samples are retained. P99 is the empirical
 99th percentile, not a worst-case deadline guarantee. Hardware and backend flags
-are in `configs/evaluation_environment.json`; per-window measurements are in
-`results/engineering/latency_samples/`.
+are in `configs/evaluation_environment.json`; published latency summaries are in
+`results/engineering/`; detailed timing records are retained locally.
 
 ## Baselines and detailed tables
 
@@ -97,3 +97,13 @@ GMAN, HimNet, MTGNN, PatchSTG, PDFormer, ST-Norm, STAEformer, STEP, STG-Mamba,
 STGCN, STGODE, STSGCN and TFT. Tables retain the archived repository labels where
 needed to match the recorded results. Per-seed test metrics, seven dataset
 tables, full ablation metrics and engineering summaries are included.
+
+## Extended evaluation
+
+The formal engineering tables in `results/engineering/event_metrics.csv` and
+`robustness_metrics.csv` cover three seeds and three missingness masks. The
+episode matching rule and mask seeds are in `configs/engineering.json`.
+`continuous_pipeline_summary.json` reports the 1,000-update accelerated WF1
+software run per model. The generator is `experiments/engineering_extension.py`.
+Intermediate caches, candidate-case lists, debug audits and duplicate figure
+formats are not part of the public result directory.

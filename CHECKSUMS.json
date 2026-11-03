@@ -16,13 +16,8 @@
   },
   {
     "file": "README.md",
-    "bytes": 7567,
-    "sha256": "12755a4a087832dfd3b671cce3e791e4354d5be20c0032bb138b485163619305"
-  },
-  {
-    "file": "README.zh-CN.md",
-    "bytes": 956,
-    "sha256": "020765913fbf942182342381f05a61b22ef726edf57a754654fc6a382cfb4b8f"
+    "bytes": 5657,
+    "sha256": "757534a1bfa676b923d37de914833e34aaa363912621e8714a0f24b317fd702b"
   },
   {
     "file": "replay.py",
@@ -50,6 +45,11 @@
     "sha256": "f63ebe2d55489b559608953119035a30eabbc6accac043dd971da589fbd330d9"
   },
   {
+    "file": "configs/engineering.json",
+    "bytes": 1016,
+    "sha256": "1fa2b46e1f9cd930625837dc0878d737612b951ef9c63e49777a3f24227635da"
+  },
+  {
     "file": "configs/evaluation_environment.json",
     "bytes": 899,
     "sha256": "def39449bb6b3ee2aabc9325ac0d5b190c5173d39e302c1bdd30fb16a105376f"
@@ -66,13 +66,13 @@
   },
   {
     "file": "configs/staged_training_records.json",
-    "bytes": 605967,
-    "sha256": "f8ec6e24a01fe60c4ae1c809a9f4cd56f02ccf692fa555fdcc47d16fce4ffb9f"
+    "bytes": 26417,
+    "sha256": "762937f1e879ef34a9e6e0c5f72de7e20d786749953a9154034197b45f9d6cbe"
   },
   {
     "file": "docs/EXPERIMENTS.md",
-    "bytes": 5632,
-    "sha256": "fe173b836e208e6a8a9ccbfca56186db0a77bc491a46f55233eafe6af2f47651"
+    "bytes": 6185,
+    "sha256": "48b988e558f682aa0de0015c18e7d3da95a57ef840763f1d3a8fbaf8bb803aff"
   },
   {
     "file": "experiments/engineering_extension.py",
@@ -93,11 +93,6 @@
     "file": "results/ablation.xlsx",
     "bytes": 22137,
     "sha256": "dc306a238226512b49a69848b87858bf5df0989469a4e355c09a035b62e0ce51"
-  },
-  {
-    "file": "results/checkpoint_reload_checks.json",
-    "bytes": 18516,
-    "sha256": "146dbefb875320ffd9efb7ac19dfd2f2aef5774fa559e3cc5cf16e5315cea639"
   },
   {
     "file": "results/comparison.xlsx",
@@ -815,9 +810,19 @@
     "sha256": "6aee5217ce273dbb6c911ed15a1bf93b1718300e8be0f9dd334b4b06d16d6092"
   },
   {
+    "file": "results/engineering/continuous_pipeline_summary.json",
+    "bytes": 232,
+    "sha256": "d96d3b68ebb7e1adaf8346fb1cc2c15a850c805bbf9d153090afe5a88372d4f1"
+  },
+  {
     "file": "results/engineering/cpu_runtime_summary.csv",
     "bytes": 1236,
     "sha256": "ec3fac22f2f5dd4a002f99fe97c063ebac8d7023f0e89de83a0dd0e869254871"
+  },
+  {
+    "file": "results/engineering/event_metrics.csv",
+    "bytes": 22061,
+    "sha256": "674af13c5517c2e6ee6861396508b4dc0e1187d8aea30e5fff0f26f489a19596"
   },
   {
     "file": "results/engineering/forecast_metrics.csv",
@@ -825,264 +830,14 @@
     "sha256": "10cba203363472c14e2492fae3f110a30c0b32fd30b3ef8fa4e703ba220c9c07"
   },
   {
-    "file": "results/engineering/robustness_summary.csv",
-    "bytes": 2160,
-    "sha256": "37de09bb1a3d125daddcf511e4304715e9763084c79ca8344fdf5d4c469c39c5"
+    "file": "results/engineering/robustness_metrics.csv",
+    "bytes": 15333,
+    "sha256": "20b4e49c8f3757e7021da5508070c2ef36ce7d3599ca5a71de41aeb0cb33d515"
   },
   {
     "file": "results/engineering/runtime_summary.csv",
     "bytes": 1716,
     "sha256": "68c1f50d9527f717484daccb0a7fa65f37a1d0d9eda218b6880cf09d5990b8be"
-  },
-  {
-    "file": "results/engineering/temporal_blocks.csv",
-    "bytes": 11089,
-    "sha256": "3633469ad8a6bb8cf5bd94dea69988e5c66c48b26e946b70b6cc4ede49280788"
-  },
-  {
-    "file": "results/engineering/threshold_replay_summary.csv",
-    "bytes": 12893,
-    "sha256": "f3baa580cf0af283f887c7a10051e9da4c3f5bad1d29014aa35dedb7f42ea654"
-  },
-  {
-    "file": "results/engineering_extension/case_candidates.json",
-    "bytes": 271965,
-    "sha256": "c17225701ebc9a88f359abb3efed6458a4c45d0add955ef4b3b2270f3d574822"
-  },
-  {
-    "file": "results/engineering_extension/event_metrics.csv",
-    "bytes": 22061,
-    "sha256": "674af13c5517c2e6ee6861396508b4dc0e1187d8aea30e5fff0f26f489a19596"
-  },
-  {
-    "file": "results/engineering_extension/figure_alignment_audit.json",
-    "bytes": 2588,
-    "sha256": "4bf6bcf6b03064b9a2dd25c149ddcb1d1ea89659ccc4a04df0840e5853011b20"
-  },
-  {
-    "file": "results/engineering_extension/pipeline_PatchSTG.csv",
-    "bytes": 42540,
-    "sha256": "204230d1c74490ef8757288a059f0af2e45e5d724971c77ba851c380c3b2ddd6"
-  },
-  {
-    "file": "results/engineering_extension/pipeline_SHARP.csv",
-    "bytes": 42679,
-    "sha256": "5f590de81da0fbc48592fec0fc7e6235941474f92ef9954f8646ff5b4c5e640d"
-  },
-  {
-    "file": "results/engineering_extension/protocol.json",
-    "bytes": 1016,
-    "sha256": "1fa2b46e1f9cd930625837dc0878d737612b951ef9c63e49777a3f24227635da"
-  },
-  {
-    "file": "results/engineering_extension/representative_fit_cases.json",
-    "bytes": 781,
-    "sha256": "b517337ce9d233b5485f3c49e810fcdfc77c29aefebed94e19d12c39f55246b3"
-  },
-  {
-    "file": "results/engineering_extension/robustness_metrics.csv",
-    "bytes": 15333,
-    "sha256": "20b4e49c8f3757e7021da5508070c2ef36ce7d3599ca5a71de41aeb0cb33d515"
-  },
-  {
-    "file": "results/engineering_extension/selected_cases.json",
-    "bytes": 420,
-    "sha256": "2cfb010d428eaf491b99770712f43626aa4788a5a8e9a397e76191d81bbe8767"
-  },
-  {
-    "file": "results/engineering_extension/SHARP_event_cases_CN.pdf",
-    "bytes": 29391,
-    "sha256": "deb07f0741b00ade8ea54d4a1fca1cf7d243e7f60a7d5caab49a3a591d459bcf"
-  },
-  {
-    "file": "results/engineering_extension/SHARP_event_cases_CN.png",
-    "bytes": 607806,
-    "sha256": "d46a2c1f9682249ca20315af0ee211d929d3db745945ec876d15aa77a4de0275"
-  },
-  {
-    "file": "results/engineering_extension/SHARP_event_cases_CN.svg",
-    "bytes": 51958,
-    "sha256": "e95dd8def2bff1a03619d732a73ef0875908d6b82933656cb947d9b6b12c6fe6"
-  },
-  {
-    "file": "results/engineering_extension/SHARP_event_cases_EN.pdf",
-    "bytes": 20324,
-    "sha256": "e755cb924324a3c5c427e0e601c18962faea87c90ebcbefe108c40c18845b220"
-  },
-  {
-    "file": "results/engineering_extension/SHARP_event_cases_EN.png",
-    "bytes": 609822,
-    "sha256": "2ef9f1e81a9c7f462657b6fe84b48e3c7bb97558ac7256b94a7957ab3272752d"
-  },
-  {
-    "file": "results/engineering_extension/SHARP_event_cases_EN.svg",
-    "bytes": 51772,
-    "sha256": "e83a0a47263f992773301733db1912f2d56ef5aac6bf139d3602528bee3b4d34"
-  },
-  {
-    "file": "results/engineering_extension/summary_extension.json",
-    "bytes": 1107,
-    "sha256": "4446e747577c6496d8914851987363ed107799bfa1c575b4fcd7632d9aef00c8"
-  },
-  {
-    "file": "results/engineering_extension/WF1905_full_rescore.json",
-    "bytes": 449,
-    "sha256": "5d5c7568b21d2461f6a2b883e22f37d576aca711f1c084af01968d0811c4c236"
-  },
-  {
-    "file": "results/engineering_extension/WF1_error_quantile_cases.pdf",
-    "bytes": 21195,
-    "sha256": "6f05c59f7be47765b06a9f02c20530c64f0cf5c4ec73f7e2f5df61c6ad3b648e"
-  },
-  {
-    "file": "results/engineering_extension/WF1_error_quantile_cases.png",
-    "bytes": 515407,
-    "sha256": "3b40694f25c0b0181bc5f13a3cb1ab8c6252b821138cf3df8ecbcc46966c8fba"
-  },
-  {
-    "file": "results/engineering_extension/WF1_error_quantile_cases.svg",
-    "bytes": 92174,
-    "sha256": "3f48b1ce8bd03fd666a843c2c60419200e372e79e443a8e828bbe3636a4d895d"
-  },
-  {
-    "file": "results/engineering/latency_samples/JAPD_PatchSTG_matched_cpu_latency.csv",
-    "bytes": 3564,
-    "sha256": "163251a3dfe1e138d3dcf8ed1302331c3f38de57cee5d811d797be41797bf7fb"
-  },
-  {
-    "file": "results/engineering/latency_samples/JAPD_PatchSTG_matched_latency.csv",
-    "bytes": 4586,
-    "sha256": "7000b25b58057a0c7c73f8b45ee267cba2b796a523a485df72800d44dbf07dce"
-  },
-  {
-    "file": "results/engineering/latency_samples/JAPD_SHARP_cpu_latency.csv",
-    "bytes": 3570,
-    "sha256": "0f420cae2e6831f41733f449b37ef5f5e35888d02f725cf6404f84cce0deac30"
-  },
-  {
-    "file": "results/engineering/latency_samples/JAPD_SHARP_latency.csv",
-    "bytes": 4597,
-    "sha256": "211969eb2a705a5ee5dd1253afe902d3ac9d323819ef95bc32c256412b6f32bb"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF13112_PatchSTG_matched_cpu_latency.csv",
-    "bytes": 4142,
-    "sha256": "db6acf878f44b4c492e4c950c5359592037c391545369d83627518c819b1db8a"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF13112_PatchSTG_matched_latency.csv",
-    "bytes": 4899,
-    "sha256": "0b38d6b39588977dbe7d0087ea0e2e5956c3c2cb37b01148ecc3b25aa193d529"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF13112_SHARP_cpu_latency.csv",
-    "bytes": 3832,
-    "sha256": "7241b8cc44e77f0e5028c181c4bdd813d843822801d4af093a9aef658f961d6d"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF13112_SHARP_latency.csv",
-    "bytes": 5164,
-    "sha256": "04fb41af182c86650c39a7ec2d7ffe9645ae22eceb8689b5c1455a4c3af6efb7"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF15212_PatchSTG_matched_cpu_latency.csv",
-    "bytes": 4178,
-    "sha256": "73bcfa5b51678a8fe98c374937aeee98f718c21a9c470f3c7a291fd716e96909"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF15212_PatchSTG_matched_latency.csv",
-    "bytes": 4773,
-    "sha256": "a7a09d26b70be73b873f5d330a04cadf62b4895c557097c0d833296aa924118b"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF15212_SHARP_cpu_latency.csv",
-    "bytes": 4575,
-    "sha256": "9ce6247bdc84326086d0b8ebf0043cd590312f0c1e2f2b4afd79d509623144d8"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF15212_SHARP_latency.csv",
-    "bytes": 4783,
-    "sha256": "7528eff957c485da6c25538f1332de25b2dcacacbe400779226ed5b17cce384e"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF1905_PatchSTG_matched_cpu_latency.csv",
-    "bytes": 4167,
-    "sha256": "0302df89a3fbfdfa8001004d11dbec72daf4400ebb1dad0e44aa677a96b2ef10"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF1905_PatchSTG_matched_latency.csv",
-    "bytes": 4779,
-    "sha256": "28def680023aa052434c8d6e3e94d5f903130404fb8c8ca3b45c98272d86d68e"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF1905_SHARP_cpu_latency.csv",
-    "bytes": 4568,
-    "sha256": "b07b9f398c9d2dbc1dae71a5f55069f87092a2733d1a8a78c973bdf913e820f4"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF1905_SHARP_latency.csv",
-    "bytes": 4786,
-    "sha256": "6852abdaba7ebad63058308a97c1f07887b74b01b2c2b12ddd90968faa3d12f3"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF1_PatchSTG_matched_cpu_latency.csv",
-    "bytes": 3620,
-    "sha256": "41cdce6af5658127424e4e2260fbbc17432eb3cf5e52f90b6c239c24975cf57c"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF1_PatchSTG_matched_latency.csv",
-    "bytes": 4813,
-    "sha256": "242c85d46d17ec1a77157ea13fd7a642cfc727a37ab504f1dcdd1463a817b91d"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF1_SHARP_cpu_latency.csv",
-    "bytes": 3624,
-    "sha256": "7e1a4af0979b2ce7305b6ca28da17c14e53ead5be477992c149805ebce2fb6d8"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF1_SHARP_latency.csv",
-    "bytes": 4659,
-    "sha256": "2d60f391bb5f2e22ebae5efb0f4fc0b9c6dd87784cee375f26aae90c919d6e34"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF2301_PatchSTG_matched_cpu_latency.csv",
-    "bytes": 4167,
-    "sha256": "d0469208954e5ddd215ee9b36243bc8514ebb284c9004ac974c6152449219ae9"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF2301_PatchSTG_matched_latency.csv",
-    "bytes": 4784,
-    "sha256": "364099f6bc25a8f317c630e89931a886ef47de81aac690661dbd9f6f9180b986"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF2301_SHARP_cpu_latency.csv",
-    "bytes": 4573,
-    "sha256": "fe679357b17aedf16c1c7521ecd6bc99c1de52bfbda03f30e51b3c6dda164d14"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF2301_SHARP_latency.csv",
-    "bytes": 4785,
-    "sha256": "295c12d627997ee0cf3d89d92f53426d1fc0733c872eb6c93437fa4c8d810ef6"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF2903_PatchSTG_matched_cpu_latency.csv",
-    "bytes": 3765,
-    "sha256": "e7439effdda2283ed936ad63c6d276e6acc941565bc70559ba38b5f5acd5fdf7"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF2903_PatchSTG_matched_latency.csv",
-    "bytes": 4783,
-    "sha256": "6404db8571b95c6a0f7590e5eff6f7014732d7767cc4b9658f0d5d0b0eb19dd1"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF2903_SHARP_cpu_latency.csv",
-    "bytes": 4314,
-    "sha256": "43c7dcc7357b775a71f495c2bc2b8e5b82ad5de3ef2e0c7c045245fc3bcf31bf"
-  },
-  {
-    "file": "results/engineering/latency_samples/WF2903_SHARP_latency.csv",
-    "bytes": 4787,
-    "sha256": "fdd6b6d29901054967249bad8a787dcff22035a3e1da351f96c9135a464cd85f"
   },
   {
     "file": "sharp/models/backbone.py",
