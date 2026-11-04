@@ -107,3 +107,55 @@ episode matching rule and mask seeds are in `configs/engineering.json`.
 software run per model. The generator is `experiments/engineering_extension.py`.
 Intermediate caches, candidate-case lists, debug audits and duplicate figure
 formats are not part of the public result directory.
+
+
+## Monitoring interface validation
+
+The manuscript expands SHARP as Selective Historical Attention and Residual
+Prediction. The local monitoring prototype processes each numerical input update
+through a frozen checkpoint, threshold evaluation, JSON output, and a browser
+interface showing a selected-node forecast and an all-sensor heatmap. Browser
+timing starts before input serialization and ends after canvas drawing and two
+requestAnimationFrame callbacks. Loopback HTTP is included.
+
+WF1 seed2026 uses 12 input steps, 48 output steps, and a displayed five-step
+forecast. Each model has 50 inference warmups, 10 complete interface warmups,
+and 1,000 measured sequential updates. Input indices advance by one minute;
+the replay runs in accelerated wall time. The result is a local interface
+prototype evaluation. Summary, hardware and browser version are in
+`results/engineering/visual_pipeline_summary.json`.
+
+| Model | Interface P50 (ms) | P95 (ms) | P99 (ms) | Maximum (ms) | Updates exceeding60s |
+|---|---:|---:|---:|---:|---:|
+| SHARP |33.500|66.900|67.201|100.100|0|
+| PatchSTG |33.300|33.600|33.800|66.700|0|
+
+Reproduce from the repository root. Start the backend in one terminal:
+
+```bash
+python experiments/ui_monitor_backend.py --repo . --out runs/ui_validation
+```
+
+In a second terminal, use Node.js with Playwright installed:
+
+```bash
+node experiments/ui_monitor_client.cjs runs/ui_validation
+```
+
+Windows uses installed Microsoft Edge; other systems use Playwright Chromium.
+The client saves detailed timing samples and interface screenshots to the run
+directory. Stop the backend with Ctrl+C after the client finishes.
+
+## Descriptive spatial correlations
+
+`results/engineering/spatial_correlation_diagnostic.csv` describes the final20%
+of each dataset. Geometric four-neighbor pairs are deduplicated as unordered
+pairs, and compared with all remaining sensor pairs. Pearson correlations are
+averaged separately for observed stress levels and one-minute increments.
+Undefined correlations involving zero-variance sequences are excluded, with
+valid pair counts retained. These descriptive test-segment statistics explain
+data characteristics; they do not estimate causal stress transmission.
+
+```bash
+python experiments/spatial_diagnostic.py --repo . --output runs/spatial_correlation_diagnostic.csv
+```

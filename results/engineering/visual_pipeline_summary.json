@@ -1,0 +1,35 @@
+{
+  "protocol": {
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "torch": "2.3.0+cu118",
+    "dataset": "WF1",
+    "seed": 2026,
+    "warmups": 50,
+    "updates_per_model": 1000,
+    "first_target_start": 24192,
+    "last_target_start": 25191,
+    "scope": "Local monitoring prototype: loopback JSON input, buffer, normalization and48-step inference, first5 threshold checks, JSON output, canvas rendering and double requestAnimationFrame. Accelerated replay; no physical sensor or mine network.",
+    "ui_warmup_updates": 10
+  },
+  "browser": "156.0.4314.42",
+  "paint_completion": "Two requestAnimationFrame callbacks after canvas draw; headless browser compositor.",
+  "models": {
+    "SHARP": {
+      "updates": 1000,
+      "p50_ms": 33.5,
+      "p95_ms": 66.89999997615814,
+      "p99_ms": 67.20100004673004,
+      "max_ms": 100.10000002384186,
+      "deadline_misses": 0
+    },
+    "PatchSTG": {
+      "updates": 1000,
+      "p50_ms": 33.300000071525574,
+      "p95_ms": 33.60000002384186,
+      "p99_ms": 33.799999952316284,
+      "max_ms": 66.70000004768372,
+      "deadline_misses": 0
+    }
+  }
+}

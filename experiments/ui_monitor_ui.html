@@ -1,0 +1,28 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Local monitoring prototype</title>
+<style>body{font-family:Arial,sans-serif;margin:32px;color:#173047;background:#f1f5f8}h1{font-size:25px}header{display:flex;justify-content:space-between;align-items:center}#state{font-weight:bold}main{background:white;padding:22px;border:1px solid #d7e1e8;border-radius:10px}canvas{display:block;width:100%;height:430px}footer{font-size:13px;color:#5a6c7a;margin-top:12px}</style>
+<header><h1>WF1 stress forecast · local monitoring prototype</h1><span id="state">Ready</span></header>
+<main><canvas id="view" width="1200" height="430"></canvas><footer>History:12 min · Forecast shown:5 min · Sampling:1 min · Training q95 scenario threshold</footer></main>
+<script>
+const cv=document.getElementById('view'),ctx=cv.getContext('2d');let setup;
+window.init=async()=>{setup=await(await fetch('/setup')).json();return {nodes:setup.nodes,updates:setup.updates.length}};
+function draw(history,result,model){
+ ctx.clearRect(0,0,1200,430);ctx.fillStyle='#173047';ctx.font='17px Arial';ctx.fillText(`${model}: node0 stress trajectory`,35,25);ctx.fillText('All sensors: next5-minute forecast',740,25);
+ const all=history.map(x=>x[0]).concat(result.forecast.map(x=>x[0]),[setup.threshold[0]]);let lo=Math.min(...all),hi=Math.max(...all);const pad=Math.max((hi-lo)*.2,.02);lo-=pad;hi+=pad;
+ const X=x=>45+(x+11)/16*630,Y=v=>365-(v-lo)/(hi-lo)*290;
+ ctx.lineWidth=1;ctx.font='12px Arial';for(let k=0;k<5;k++){let v=lo+(hi-lo)*k/4;ctx.strokeStyle='#e4ebef';ctx.beginPath();ctx.moveTo(45,Y(v));ctx.lineTo(675,Y(v));ctx.stroke();ctx.fillStyle='#506675';ctx.fillText(v.toFixed(3),0,Y(v)+4)}
+ function line(a,color,start){ctx.strokeStyle=color;ctx.lineWidth=2.4;ctx.beginPath();a.forEach((v,i)=>i?ctx.lineTo(X(start+i),Y(v)):ctx.moveTo(X(start+i),Y(v)));ctx.stroke()}
+ line(history.map(x=>x[0]),'#278bc0',-11);line([history.at(-1)[0],...result.forecast.map(x=>x[0])],'#65a538',0);
+ ctx.strokeStyle='#df5656';ctx.setLineDash([5,4]);ctx.beginPath();ctx.moveTo(45,Y(setup.threshold[0]));ctx.lineTo(675,Y(setup.threshold[0]));ctx.stroke();ctx.setLineDash([]);ctx.strokeStyle='#8198a4';ctx.beginPath();ctx.moveTo(X(0),60);ctx.lineTo(X(0),365);ctx.stroke();ctx.fillStyle='#173047';ctx.fillText('now',X(0)-10,390);ctx.fillText('+5min',X(5)-17,390);ctx.fillText('Stress (MPa)',45,55);
+ const rowHeight=330/setup.nodes;
+ for(let n=0;n<setup.nodes;n++)for(let h=0;h<5;h++){const ratio=result.forecast[h][n]/Math.max(setup.threshold[n],1e-6);ctx.fillStyle=`hsl(${Math.max(0,Math.min(120,120-(ratio-.7)*400))},60%,63%)`;ctx.fillRect(745+h*58,48+n*rowHeight,54,rowHeight-1)}
+ ctx.fillStyle='#173047';for(let h=0;h<5;h++)ctx.fillText(`+${h+1}`,765+h*58,405);ctx.fillText(`${result.alarms.filter(Boolean).length}/${setup.nodes} sensors predict crossing`,740,425);
+ document.getElementById('state').textContent=`${model} · update ${result.index} · forecast displayed`;
+}
+const painted=()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+window.runTest=async model=>{
+ async function reset(){await fetch('/reset',{method:'POST',body:JSON.stringify({model})});return structuredClone(setup.history)}
+ async function update(history,row){let t0=performance.now();const result=await(await fetch('/step',{method:'POST',body:JSON.stringify({model,...row})})).json();history.push(row.values);if(history.length>12)history.shift();draw(history,result,model);await painted();return {index:row.index,end_to_end_ms:performance.now()-t0,model_ms:result.model_ms}}
+ let history=await reset();for(const row of setup.updates.slice(0,10))await update(history,row);history=await reset();const samples=[];
+ for(const row of setup.updates)samples.push(await update(history,row));return samples;
+};
+</script></html>
