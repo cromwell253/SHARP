@@ -5,7 +5,7 @@ from pathlib import Path
 import sys,json,csv,time,gc
 import numpy as np
 import torch
-R=Path(__file__).resolve().parents[1];P=R;O=R/'runs/engineering_extension';O.mkdir(exist_ok=True)
+R=Path(__file__).resolve().parents[2];P=R;O=R/'runs/engineering_extension';O.mkdir(parents=True,exist_ok=True)
 sys.path.insert(0,str(P))
 from sharp.inference import load_model
 from sharp.data import starts,batches,read_series,metric_pair

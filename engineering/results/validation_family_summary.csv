@@ -1,0 +1,5 @@
+﻿family,validation_macro_f1_q95,selected
+margin,0.4656590308764048,False
+bias_margin,0.5221061824438957,True
+logistic,0.428886871231188,False
+tree,0.428886871231188,False

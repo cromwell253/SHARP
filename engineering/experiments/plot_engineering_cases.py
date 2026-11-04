@@ -4,7 +4,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
-R=Path(__file__).resolve().parents[1];O=R/'runs/engineering_extension';cases=json.loads((O/'selected_cases.json').read_text())
+R=Path(__file__).resolve().parents[2];O=R/'runs/engineering_extension';cases=json.loads((O/'selected_cases.json').read_text())
 plt.rcParams.update({'font.family':'DejaVu Serif','font.size':10,'pdf.fonttype':42,'svg.fonttype':'none','axes.spines.top':False,'axes.spines.right':False})
 for lang in ['EN','CN']:
  fp=FontProperties(family='SimSun',size=10) if lang=='CN' else None

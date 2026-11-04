@@ -1,0 +1,88 @@
+{
+  "name": "frozen_forecast_warning_calibration",
+  "primary_quantile": 0.95,
+  "datasets": [
+    "JAPD",
+    "WF1",
+    "WF13112",
+    "WF15212",
+    "WF1905",
+    "WF2301",
+    "WF2903"
+  ],
+  "model_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "quantiles": [
+    0.9,
+    0.95,
+    0.99
+  ],
+  "families": [
+    "margin",
+    "bias_margin",
+    "logistic",
+    "tree"
+  ],
+  "primary_endpoint": "macro event F1 over seven datasets after averaging seeds",
+  "operating_points": [
+    "validation maximum event F1",
+    0.01,
+    0.02,
+    0.05
+  ],
+  "selection": "One shared family selected by mean validation-second-half q95 F1 over both models, all datasets and seeds. Per-case coefficients fit on validation-first-half only; thresholds use validation-second-half only. Test evaluation begins only after selection.json is frozen.",
+  "validation_split": "chronological halves, first-half fitting targets contained before midpoint, second-half threshold selection; five-step target boundary purge",
+  "fit_window_stride": 5,
+  "max_fit_samples": 150000,
+  "node_scale_floor_MPa": 0.01,
+  "bias_shrinkage_samples": 256,
+  "logistic": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "max_iter": 200
+  },
+  "tree": {
+    "max_iter": 60,
+    "max_leaf_nodes": 7,
+    "min_samples_leaf": 50,
+    "learning_rate": 0.05,
+    "l2_regularization": 10.0,
+    "max_bins": 63,
+    "early_stopping": false,
+    "random_state": 20261104
+  },
+  "threshold_score_percentiles": [
+    50,
+    75,
+    90,
+    95,
+    97,
+    98,
+    99,
+    99.3,
+    99.5,
+    99.7,
+    99.8,
+    99.9,
+    99.95,
+    99.97,
+    99.99,
+    100
+  ],
+  "false_alarm_budgets_per_sensor_hour": [
+    0.01,
+    0.02,
+    0.05
+  ],
+  "event_protocol": "Existing first-issue alarm-episode one-to-one greedy matching within five minutes; current reading must be at or below the fixed training-only node threshold. Onsets require all five prior prediction opportunities.",
+  "test_scope": "Reassessment on the previously examined chronological test split; no test labels used to select calibration family, parameters, or operating point. Not a newly collected blind external test.",
+  "history_reference": "fixed logistic history-only detector, identical fitting and threshold selection; reported separately",
+  "secondary_forecast_endpoints": [
+    "five-minute maximum stress MAE",
+    "five-step MAE/RMSE when current stress is within0.5 training-node SD below q95 threshold"
+  ],
+  "empty_event_selection_fallback": "If the threshold-selection half has no observed onsets, the primary operating point preserves the original direct-threshold rule for both forecasters; no threshold is learned from absence of events. Budget operating points preserve the validation false-alarm constraint; the history-only reference retains its original selection rule. Added from validation-only data before any calibrated test evaluation."
+}

@@ -60,10 +60,12 @@ Five model configurations are included in the ablation study to investigate the 
 
 Engineering evaluations cover the following aspects:
 
-1. **Stress Threshold Event Replay:** Evaluates stress threshold crossing detection and warning lead times using thresholds derived from the 90th, 95th, and 99th percentiles of the training data.
+1. **Stress Threshold Event Replay:** Evaluates stress threshold crossing detection and warning lead times using thresholds derived from the 90th, 95th, and 99th percentiles of the training data, with both direct thresholding and shared validation-only calibration.
 2. **Missing Data Robustness:** Evaluates forecasting performance under randomly masked historical observations.
 3. **Input Staleness:** Examines model performance when the latest two minutes of monitoring data are delayed.
 4. **Inference Latency:** Measures model execution efficiency on CPU and GPU, including preprocessing, inference, and result serialization.
+
+Engineering protocols, experiment scripts, selected warning parameters, and detailed results are collected in [`engineering/`](engineering/README.md).
 
 ## 3. Experimental Results
 
@@ -74,7 +76,7 @@ Experimental results are organized as follows:
 | `results/comparison.xlsx` | Summary of model comparison results across seven datasets |
 | `results/ablation.xlsx` | Summary of ablation study results |
 | `results/comparison/` | Per-dataset, per-seed, and aggregated comparison results |
-| `results/engineering/` | Engineering evaluation results, including five-minute forecasting accuracy, threshold event replay, input perturbation tests, and inference latency |
+| `engineering/results/` | Engineering evaluation results, including five-minute forecasting accuracy, threshold event replay, input perturbation tests, and inference latency |
 
 The experimental results cover:
 
@@ -100,9 +102,9 @@ SHARP/
 ├── configs/                     # Data splits and experimental configurations
 ├── results/
 │   ├── comparison/              # Model comparison results
-│   ├── engineering/              # Engineering evaluation results
 │   ├── comparison.xlsx          # Comparison summary
 │   └── ablation.xlsx             # Ablation summary
+├── engineering/                # Engineering protocols, experiments, and results
 ├── evaluate.py                  # Forecasting performance evaluation
 └── replay.py                    # Stress threshold event replay
 ```
