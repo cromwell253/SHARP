@@ -6,6 +6,9 @@ inputs. It uses the seven published datasets and the supplied frozen checkpoints
 
 ## Warning calibration
 
+The scoring equation, complete event protocol and extended threshold results are
+in [Warning protocol and extended results](WARNING_PROTOCOL.md).
+
 Each sensor's stress threshold is a fixed 90th, 95th or 99th training percentile.
 These are evaluation scenarios; the primary scenario is the 95th percentile.
 SHARP and PatchSTG receive the same validation-only calibration procedure.
