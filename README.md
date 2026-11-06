@@ -81,6 +81,12 @@ Engineering evaluations cover the following aspects:
 
 Engineering protocols, experiment scripts, selected warning parameters, and detailed results are collected in [`engineering/`](engineering/README.md).
 
+### Fixed-origin forecast example
+
+![Five-minute forecast example](engineering/figures/fixed_origin_forecast.png)
+
+All forecasts in this example are issued at minute 0. Observed stress first exceeds the training-period 95th-percentile scenario threshold at minute 3. SHARP predicts a crossing at minute 4, so its crossing-time error is 4 − 3 = +1 minute. Since the alert is available at issuance, its observed warning lead is 3 − 0 = 3 minutes. PatchSTG predicts no crossing within the five-minute window. Warning lead and crossing-time error measure different aspects of the same forecast. This is an individual example; aggregate event performance is reported separately.
+
 ## 3. Experimental Results
 
 Experimental results are organized as follows:
