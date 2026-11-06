@@ -25,6 +25,20 @@ All datasets have a sampling interval of one minute. Spatial coordinates are def
 
 Calendar dates and original sensor identifiers are omitted, while the original temporal and spatial ordering is preserved.
 
+### Dataset coverage
+
+| Dataset | Sensors | Time steps | Start / end timestamps | Days |
+|---|---:|---:|---|---:|
+| JAPD | 12 | 21363 | 2025-07-01 12:01 to  2025-07-16 08:03 | 14 |
+| WF1 | 36 | 30240 | 2025-07-01 12:01 to  2025-07-22 12:00 | 21 |
+| WF13112 | 36 | 131040 | 2026-03-02 14:30 to  2026-06-01 14:29 | 91 |
+| WF15212 | 26 | 175680 | 2026-04-15 09:12 to  2026-08-15 09:11 | 122 |
+| WF1905 | 30 | 161280 | 2025-08-11 10:42 to  2025-12-01 10:41 | 112 |
+| WF2301 | 43 | 172800 | 2025-08-01 11:02 to  2025-11-29 11:01 | 120 |
+| WF2903 | 16 | 175680 | 2026-03-09 18:33 to  2026-07-09 18:32 | 122 |
+
+The table reports the first and last timestamps retained in each experimental input. Calendar timestamps are omitted from the released numerical arrays.
+
 ## 2. Experimental Configuration
 
 ### 2.1 Data Splitting and Preprocessing
